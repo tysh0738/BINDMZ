@@ -2,47 +2,53 @@
     outline: none;
 }
 
-.screen {
+body {
     margin: 0;
-    width: 600px;
-    height: 1067px;
     background-image: url("image/%E7%99%BB%E5%85%A5%E8%83%8C%E6%99%AF.jpg");
-    background-size: cover;
+    background-size: 100vw 100vh;
     text-align: center;
 }
 
+img {
+    position: absolute;
+    top: 20vh;
+    width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
 form {
-    position: relative;
+    margin-top: 45vh;
 }
 
 input {
-    width: 300px;
+    width: 50vw;
     border-top: none;
     border-left: none;
     border-right: none;
-    border-bottom: 3px solid white;
+    border-bottom: 2px solid white;
     background-color: transparent;
     background-repeat:no-repeat;
-    background-size: 60px;
+    background-size: 50px;
     background-position: bottom left;
-    font-size: 30px;
+    font-size: 20px;
     color: white;
-    padding-left: 60px;
+    padding-left: 50px;
     padding-bottom: 2px;
     padding-top: 5px;
 }
 
 form #account{
-    margin-top: 480px;
-    background-image: url("image/input_icon1.PNG"); 
+    background-image: url("image/input_icon1.PNG");
 }
 form #password{
-    margin-top: 30px;
-    background-image: url("image/input_icon2.PNG"); 
+    margin-top: 15px;
+    background-image: url("image/input_icon2.PNG");
 }
 form #submitButton{
     margin-top: 50px;
-    padding: 20px 80px;
     border: none;
     border-radius: 10px;
     color: white;
@@ -53,4 +59,3 @@ form #submitButton{
 form #submitButton:hover {
     background-color: #225c96;
 }
-
